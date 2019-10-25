@@ -1,0 +1,17 @@
+---
+label: partenaires
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+pages:
+- _partenaires/comptia.md
+- _partenaires/ibm.md
+- _partenaires/linux.md
+- _partenaires/microsoft.md
+- _partenaires/sage.md
+- _partenaires/oracle.md

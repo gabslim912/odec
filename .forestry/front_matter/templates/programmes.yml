@@ -1,0 +1,20 @@
+---
+label: programmes
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: diplomes
+  label: diplomes
+- type: file
+  name: image
+  label: image
+pages:
+- _programmes/communication-digitale.md
+- _programmes/audiovisuel-numérique.md
+- _programmes/arts-graphiques-numérique.md

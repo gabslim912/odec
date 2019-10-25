@@ -1,0 +1,19 @@
+---
+label: commentaires
+hide_body: false
+fields:
+- type: text
+  name: nom
+  label: nom
+- type: text
+  name: profession
+  label: profession
+- type: file
+  name: image
+  label: photo de profil
+  default: "/uploads/professionnel.jpg"
+pages:
+- _commentaires/Secouna badji.md
+- _commentaires/Atangana.md
+- _commentaires/YANNICK.md
+- _commentaires/Andy ASSA.md
