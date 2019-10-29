@@ -3,7 +3,7 @@ title: Acceuil
 date: 2019-02-09T11:25:14.000+00:00
 sliders:
 - title_medium: Bienvenue sur le
-  title_large: site officiel de l'ODEC de Thies
+  title_large: Site officiel de l'ODEC de Thies
   link_1: "/presentation"
   link_2: "/contact"
   image: "/uploads/img1.jpg"
