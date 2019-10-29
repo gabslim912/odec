@@ -55,6 +55,20 @@ fields:
     schema:
       format: markdown
   label: Description Parallax 1
+- name: titre_parallax_2
+  type: text
+  config:
+    required: false
+  label: Titre Parallax 2
+- name: texte_parallax_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Texte Parallax 2
 - type: list
   name: diplomes
   label: diplomes
