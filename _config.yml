@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SUP IMAX
+title: ODEC THIES
 collections:
   posts:
     title: Posts
@@ -30,15 +30,14 @@ collections:
   partenaires:
     title: partenaires
     output: true
-adresse: Rue de Niombré x rue Aristide le Dantec
-email: supimax@supimax.com
-tel: 33 889 11 88
+adresse: Rue de Niombré, Thies Sénégal
+email: contact@odec-thies.com
+tel: 33 876 54 32
 description: >- # this means to ignore newlines until "baseurl:"
-  Etablissement Privé d'Enseignement Supérieur, SUP'IMAX accueille chaque année des 
-  candidats issus de différents horizons. L'expertise du Groupe SUP'INFO ( 23 ans) 
-  agréé par l'état, associée au partenariat d'entreprises réputées et d'intervenants
-  professionnels établissent le cadre de votre prochain séjour parmi nous. SUP'IMAX 
-  c'est aussi un centre agréé de Certifications Internationales ouvert toute l'année.
+  Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+  laying out print, graphic or web designs. The passage is attributed to
+   an unknown typesetter in the 15th century who is thought to have 
+   scrambled parts of Cicero's De Finibus Bonorum.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

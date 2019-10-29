@@ -33,11 +33,11 @@ layout: default
         <div class="row"> 
             <div class="col-md-6 col-lg-6"> 
                 <div class="about-us-text">
-                    <h4>Bienvenue à SUP'IMAX</h4>
-                    <h2>23 ans d'expérience dans l'éducation</h2>
-                    <h5>Etablissement Privé d'Enseignement Supérieur, SUP'IMAX accueille chaque année des candidats issus de différents horizons.</h5>
+                    <h4>Bienvenue à l'ODEC de Thies</h4>
+                    <h2>20 ans d'expérience dans l'éducation</h2>
+                    <h5>OFFICE DIOCESAIN DE L’ENSEIGNEMENT CATHOLIQUE DE LA REGION DE THIES accueille chaque année des candidats issus de différents horizons.</h5>
                     
-                    <p> L'expertise du Groupe SUP'INFO ( 23 ans) agréé par l'état, associée au partenariat d'entreprises réputées et d'intervenants professionnels établissent le cadre de votre prochain séjour parmi nous. SUP'IMAX c'est aussi un centre agréé de Certifications Internationales ouvert toute l'année.</p>
+                    <p> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book</p>
                     
                     <a href="/presentation/" target="blank" class="default-btn">A Propos</a>
                 </div>
@@ -68,9 +68,9 @@ layout: default
 <div class="ptb-100"> 
     <div class="container">
         <div class="categorie-slider owl-carousel owl-theme"> 
-          {% for domaine in site.domaines %}
-            <div class="single-categorie " style=" background-image: url({{ domaine.image }}); width: 100%; height: 172px">
-                <a href="#">{{ domaine.title }}</a>
+          {% for programme in site.programmes %}
+            <div class="single-categorie " style=" background-image: url({{ programme.image }}); width: 100%; height: 172px">
+                <a href="#">{{ programme.title }}</a>
             </div>
           {% endfor %}
             
@@ -86,7 +86,7 @@ layout: default
         <div class="section-header">
             <i class="icofont-education"></i>
             <h2>Programme Académique</h2>
-            <p>Le programme SUP'IMAX de Licences et Masters Professionnelle est axé sur trois grands domaines de spécialité :</p>
+            <p>L'ODEC de Thies est composé de 64 établissements dans la région couvrant les domaines suivants :</p>
         </div> 
         
         <div class="row"> 
@@ -99,12 +99,12 @@ layout: default
                     </a>
 
                     <div class="course-caption">
-                        <h3><a href="#">{{ programme.title }}</a></h3>
+                        <h3 style="width: 238px; height: 70px;"><a href="#">{{ programme.title }}</a></h3>
                         <p class="text-justify">{{ programme.description }}</p>
 
                         <div class="course-foot">
                           
-                          <a href="#"><i class="icofont-graduate-alt"></i>{{ programme.diplomes }}</a>
+                          <a href="#"><i class="icofont-graduate-alt"></i>{{ programme.nombre }}</a>
                             
                         </div>
                     </div>
@@ -125,8 +125,8 @@ layout: default
 <div class="ctr-area ptb-100" style="background-image: url({{ page.parallax1 }});">
     <div class="container"> 
         <div class="ctr-text-content">
-            <h1>SUP'MAX - PROGRAMME 2019</h1>
-            <p>Le service d'orientation de SUP'IMAX se préoccupe en premier lieu de répondre à vos questions et de vous faire découvrir les différentes opportunités de carrières qui se présenteront à vous. Contactez nous pour en savoir plus!</p>
+            <h1>{{ page.titre_parallax_1 }}</h1>
+            <p>{{ page.description_parallax_1 }}</p>
             
             <a href="/contact/" target="blank" class="default-btn">CONTACTEZ NOUS</a>
         </div>
@@ -140,7 +140,8 @@ layout: default
         <div class="section-header">
             <i class="icofont-education"></i>
             <h2>Pourquoi nous choisir?</h2>
-            <p>La première des missions a été de créer le cadre d'accueil adapté à nos objectifs. </p>
+            <p>Nous souhaitons développer l’Enseignement catholique au Sénégal dans le cadre de l’éducation formelle et non formelle
+             </p>
         </div>
         
         <div class="row"> 
@@ -149,8 +150,8 @@ layout: default
                     <div class="reason-icon">
                         <i class="icofont-man-in-glasses"></i>
                     </div>
-                    <h3>La Qualité des Enseignements</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. </p>
+                    <h3>Enseignement de Qualité</h3>
+                    <p style="width: auto; height: 120px;">Participer à l’amélioration de la qualité de l’offre éducative offerte dans la région de Thies au Sénégal.</p>
                 </div>
             </div>
             
@@ -159,8 +160,8 @@ layout: default
                     <div class="reason-icon">
                         <i class="icofont-book-alt"></i>
                     </div>
-                    <h3>L'Actualisation des Programmes</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. </p>
+                    <h3>Projet Educatif</h3>
+                    <p style="width: auto; height: 120px;">Participer  à la mission de l’Église en promouvant un projet éducatif d’inspiration catholique de qualité. </p>
                 </div>
             </div>
           
@@ -170,8 +171,8 @@ layout: default
                     <div class="reason-icon">
                         <i class="icofont-graduate"></i>
                     </div>
-                    <h3>Certification</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. </p>
+                    <h3>Communautés Educatives</h3>
+                    <p style="width: auto; height: 120px;">Favoriser la création de « communautés éducatives » dans lesquelles tous les acteurs travaillent de façon solidaire.  </p>
                 </div>
             </div>
         </div>
@@ -183,7 +184,7 @@ layout: default
 <div class="video-area" style="background-image: url({{ page.parallax1 }});">
     <div class="d-table"> 
         <div class="d-tablecell">
-          <h1 style="color: white;">INTERVIEW AVEC MR DIDIER DIOP, DIRECTEUR DE SUP'IMAX</h1>
+          <h1 style="color: white;">MESSAGE DU DIRECTEUR</h1>
             <div class="sonar-wrapper">
                 <div class="sonar-emitter" data-tilt>
                     <a href="https://www.youtube.com/watch?v=dv66pdHb99U" class="play-icon popup-youtube">
@@ -203,7 +204,7 @@ layout: default
         <div class="section-header">
             <i class="icofont-education"></i>
             <h2>Les Témoignages</h2>
-            <p>Découvrez les différents témoignages des personnes qui ont eu à découvrir notre institut</p>
+            <p>Découvrez les différents témoignages des personnes qui ont eu à découvrir nos établissements</p>
         </div>
         
         <div class="feedback-carosel owl-carousel owl-theme owl-theme-s2">
@@ -231,8 +232,8 @@ layout: default
 <div class="ctr-area ptb-100" style="background-image: url({{ page.parallax2 }});">
     <div class="container"> 
         <div class="ctr-text-content">
-            <h1>Notre vision chez SUP'IMAX</h1>
-            <p>Offrir au continent Africain de véritables structures de formation professionnelle identifiables par la Qualité de leurs installations et la rigueur des programmes aux Normes internationales : tel est l'engagement du Groupe SUP'INFO basé au Sénégal depuis une vingtaine d'années.</p>
+            <h1>{{ page.titre_parallax_2 }}</h1>
+            <p>{{ page.texte_parallax_2 }}</p>
             
             <a href="#" class="default-btn">En savoir plus</a>
         </div>
