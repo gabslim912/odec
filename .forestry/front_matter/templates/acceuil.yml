@@ -24,9 +24,11 @@ fields:
   - type: text
     name: link_2
     label: link_2
-  - type: text
-    name: image
-    label: image
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
 - type: file
   name: image_1
   label: image_1
