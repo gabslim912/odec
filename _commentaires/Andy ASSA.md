@@ -2,7 +2,7 @@
 image: "/uploads/professionnel.jpg"
 nom: Andy ASSA
 profession: Gabon
-date: 2019-02-11 00:41:04 +0000
+date: '2019-02-11T00:41:04.000+00:00'
 
 ---
-**Spendide, merveilleux, ... les mots me manquent pour qualifier cet endroit où je passe désormais toutes mes journées. Nous sommes vraiment dans des conditions qui facilitent la réussite..**
+**_Lorem ipsum_**, or **_lipsum_** as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century
