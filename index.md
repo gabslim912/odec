@@ -1,12 +1,12 @@
 ---
 title: Acceuil
-date: 2019-02-09 11:25:14 +0000
+date: 2019-02-09T11:25:14.000+00:00
 sliders:
-- title_medium: Bienvenue dans
-  title_large: L'univers de la création
+- title_medium: Bienvenue sur le
+  title_large: site officiel de l'ODEC de Thies
   link_1: "/presentation"
   link_2: "/contact"
-  image: "/uploads/slide1.jpg"
+  image: ''
 - title_medium: Profitez de
   title_large: Nos programmes toute l'année
   link_1: "/presentation"
@@ -32,4 +32,10 @@ layout: home
 permalink: "/"
 
 ---
-<em>C’est la loi n° 83.52 du 18 février 1983 qui consacre la création du Centre National de Qualification Professionnelle (CNQP) avec le statut d’Etablissement Public à Caractère Administratif (EPA). Le CNQP devenait ainsi une structure gérée de façon tripartite Gouvernement, Entreprises, Travailleurs. </br>Son autonomie pédagogique et financière a favorisé la recherche d’une liaison permanente entre le Centre et les Entreprises à travers des concertations larges pour la définition et l’exécution des actions de formation et/ou de perfectionnement. En 2000 l’Etat a décidé de faire évoluer à nouveau son statut en le consacrant Etablissement Public à caractère Industriel et Commercial (EPIC) par la loi n° 2000-26 du 1er septembre 2000 et les règles d’organisation consacrées par le décret 2000.865 du 31 octobre 2000. </br>Cette modification de statut du CNQP répond au souci de renforcer son autonomie pédagogique et financière et l’identifier à une entreprise privée pour son mode de gestion et ses rapports avec les tiers.</em>
+•Développer l’Enseignement catholique au Sénégal dans le cadre de l’éducation formelle et non formelle
+
+•Participer à l’amélioration de la qualité de l’offre éducative
+
+•Participer à la mission de l’Église en promouvant un projet éducatif d’inspiration catholique
+
+•Favoriser la création de « communautés éducatives » dans lesquelles tous les acteurs travaillent de façon solidaire et responsable au progrès scolaire, éducatif et culturel, au développement de l’esprit évangélique, en accordant une attention spéciale aux plus déshérités et en accueillant, dans le respect des consciences, tous ce qui font confiance à l’institution.
