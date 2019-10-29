@@ -1,8 +1,8 @@
 ---
-image: "/uploads/professionnel.jpg"
+image: "/uploads/img7.jpg"
 nom: Secouna BADJI
 profession: Sénégal
 date: '2019-02-11T00:44:19.000+00:00'
 
 ---
-**C'est mon cousin qui m'en a parlé et depuis quelques mois je suis mes cours dans un de leur établissement : Il faut vraiment découvrir ce coin pour comprendre que c'est top! Je ne regrette pas mon choix ...**
+**_Lorem ipsum_**, or **_lipsum_** as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century
