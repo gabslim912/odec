@@ -9,6 +9,5 @@ fields:
   name: image
   label: image
 pages:
-- _domaines/community-management.md
 - _domaines/infographie.md
 - _domaines/informatique.md
