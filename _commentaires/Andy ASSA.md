@@ -1,5 +1,5 @@
 ---
-image: "/uploads/professionnel.jpg"
+image: "/uploads/img7.jpg"
 nom: Andy ASSA
 profession: Gabon
 date: '2019-02-11T00:41:04.000+00:00'
