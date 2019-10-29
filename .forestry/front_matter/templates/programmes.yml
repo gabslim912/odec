@@ -1,16 +1,16 @@
 ---
-label: programmes
-hide_body: false
+label: Infrastructures
+hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: textarea
   name: description
   label: description
 - type: text
-  name: diplomes
-  label: diplomes
+  name: nombre
+  label: Nombre d'infrastructures
 - type: file
   name: image
   label: image
