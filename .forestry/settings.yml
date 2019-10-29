@@ -12,13 +12,6 @@ sections:
   templates:
   - evenements
 - type: directory
-  path: _domaines
-  label: Domaines
-  create: all
-  match: "**/*"
-  templates:
-  - domaines
-- type: directory
   path: _programmes
   label: Progammes
   create: all
