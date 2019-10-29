@@ -25,6 +25,16 @@ diplomes:
 - CQP
 layout: home
 permalink: "/"
+titre_parallax_1: ODEC THIES - PROGRAMME 2019
+description_parallax_1: Le service d'orientation de l'ODEC de la région de Thies se
+  préoccupe en premier lieu de répondre à vos questions et de vous faire découvrir
+  les différentes opportunités qui se présenteront à vous. Contactez nous pour en
+  savoir plus!
+titre_parallax_2: NOTRE VISION CHEZ L'ODEC
+texte_parallax_2: Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+  in laying out print, graphic or web designs. The passage is attributed to an unknown
+  typesetter in the 15th century who is thought to have scrambled parts of Cicero's
+  De Finibus Bonorum et Malorum for use in a type specimen book
 
 ---
 •Développer l’Enseignement catholique au Sénégal dans le cadre de l’éducation formelle et non formelle
