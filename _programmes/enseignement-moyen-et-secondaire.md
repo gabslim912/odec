@@ -6,6 +6,5 @@ description: Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
   De Finibus Bonorum et Malorum for use in a type specimen book.
 nombre: 1 Etablissement
 image: "/uploads/img5.jpg"
-published: false
 
 ---
