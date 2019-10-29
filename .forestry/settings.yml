@@ -13,7 +13,7 @@ sections:
   - evenements
 - type: directory
   path: _programmes
-  label: Progammes
+  label: Infrastructures
   create: all
   match: "**/*"
   templates:
