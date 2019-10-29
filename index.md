@@ -6,17 +6,17 @@ sliders:
   title_large: site officiel de l'ODEC de Thies
   link_1: "/presentation"
   link_2: "/contact"
-  image: ''
-- title_medium: Profitez de
-  title_large: Nos programmes toute l'année
+  image: "/uploads/img1.jpg"
+- title_medium: 'Amélioration de la '
+  title_large: Qualité de l’offre éducative
   link_1: "/presentation"
   link_2: "/contact"
-  image: "/uploads/slide2.jpg"
-- title_medium: ADMISSION 2019
+  image: "/uploads/img2.jpg"
+- title_medium: Inscriptions 2019
   title_large: INSCRIVEZ-VOUS DÈS MAINTENANT
   link_1: "/presentation"
   link_2: "/contact"
-  image: "/uploads/slide4.jpg"
+  image: "/uploads/img4.jpg"
 image_1: "/uploads/43110262_310129879718923_7967312957128310784_n.jpg"
 video_thumb1: "/uploads/background2.jpg"
 parallax1: "/uploads/background1.jpg"
