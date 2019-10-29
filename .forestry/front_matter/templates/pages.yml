@@ -13,6 +13,6 @@ fields:
   label: layout
 pages:
 - actualités.md
+- présentation.md
 - contact.md
 - admission.md
-- présentation.md
