@@ -15,5 +15,5 @@ fields:
   name: image
   label: image
 pages:
-- _programmes/enseignement-préscolaire.md
 - _programmes/eiseignement-elémentaire.md
+- _programmes/enseignement-préscolaire.md
