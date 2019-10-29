@@ -1,0 +1,50 @@
+---
+label: acceuil
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: field_group_list
+  name: sliders
+  label: sliders
+  fields:
+  - type: text
+    name: title_medium
+    label: title_medium
+  - type: text
+    name: title_large
+    label: title_large
+  - type: text
+    name: link_1
+    label: link_1
+  - type: text
+    name: link_2
+    label: link_2
+  - type: text
+    name: image
+    label: image
+- type: file
+  name: image_1
+  label: image_1
+- type: file
+  name: video_thumb1
+  label: video_thumb1
+- type: file
+  name: parallax1
+  label: parallax1
+- type: file
+  name: parallax2
+  label: parallax2
+- type: list
+  name: diplomes
+  label: diplomes
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: permalink
+  label: permalink
