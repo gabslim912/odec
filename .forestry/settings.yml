@@ -9,6 +9,8 @@ sections:
   label: Evenements
   create: all
   match: "**/*"
+  templates:
+  - evenements
 - type: directory
   path: _domaines
   label: Domaines
