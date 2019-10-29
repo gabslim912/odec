@@ -41,6 +41,20 @@ fields:
 - type: file
   name: parallax2
   label: parallax2
+- name: titre_parallax_1
+  type: text
+  config:
+    required: false
+  label: Titre Parallax 1
+- name: description_parallax_1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description Parallax 1
 - type: list
   name: diplomes
   label: diplomes
