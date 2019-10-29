@@ -5,9 +5,11 @@ fields:
 - type: text
   name: title
   label: title
+  hidden: true
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: field_group_list
   name: sliders
   label: sliders
@@ -38,9 +40,6 @@ fields:
 - type: file
   name: parallax1
   label: parallax1
-- type: file
-  name: parallax2
-  label: parallax2
 - name: titre_parallax_1
   type: text
   config:
@@ -55,6 +54,9 @@ fields:
     schema:
       format: markdown
   label: Description Parallax 1
+- type: file
+  name: parallax2
+  label: parallax2
 - name: titre_parallax_2
   type: text
   config:
@@ -69,14 +71,13 @@ fields:
     schema:
       format: markdown
   label: Texte Parallax 2
-- type: list
-  name: diplomes
-  label: diplomes
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 pages:
 - index.md
