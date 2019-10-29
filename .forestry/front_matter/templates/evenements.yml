@@ -1,4 +1,52 @@
 ---
 label: evenements
 hide_body: false
-fields: []
+fields:
+- name: premiere_image
+  type: file
+  config:
+    maxSize: 250
+  label: Première Image
+- name: seconde_image
+  type: file
+  config:
+    maxSize: 250
+  label: Seconde Image
+- name: date_de_debut
+  type: datetime
+  label: Date de début
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: date_de_fin
+  type: datetime
+  label: Date de fin
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: plage_horaire
+  type: text
+  config:
+    required: false
+  label: Plage horaire
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: tel
+  type: text
+  config:
+    required: false
+  label: Tel
+- name: adresse
+  type: text
+  config:
+    required: false
+  label: Adresse
