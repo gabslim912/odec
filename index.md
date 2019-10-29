@@ -18,16 +18,11 @@ sliders:
   link_2: "/contact"
   image: "/uploads/img4.jpg"
 image_1: "/uploads/img3.jpg"
-video_thumb1: "/uploads/img4.jpg"
-parallax1: "/uploads/background1.jpg"
-parallax2: "/uploads/slide1.jpg"
+video_thumb1: "/uploads/img3.jpg"
+parallax1: "/uploads/img1.jpg"
+parallax2: "/uploads/img3.jpg"
 diplomes:
-- BTS
-- BT
 - CQP
-- BEP
-- CAP
-- CS
 layout: home
 permalink: "/"
 
