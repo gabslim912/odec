@@ -9,9 +9,9 @@ fields:
   name: image
   label: image
 pages:
-- _partenaires/comptia.md
-- _partenaires/ibm.md
-- _partenaires/linux.md
-- _partenaires/microsoft.md
-- _partenaires/sage.md
 - _partenaires/oracle.md
+- _partenaires/sage.md
+- _partenaires/microsoft.md
+- _partenaires/linux.md
+- _partenaires/ibm.md
+- _partenaires/comptia.md
