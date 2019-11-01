@@ -1,11 +1,11 @@
 ---
 title: 'Sénégal : les travailleurs de TIGO préoccupés par la « dégradation » de la
   situation de l’entreprise'
-date: 2019-02-11 00:00:00 +0000
+date: 2019-02-11T00:00:00.000+00:00
 auteur: La rédaction
 mini_desc: 'Le nouveau directeur général de TIGO Sénégal dont la nomination a été
   officialisée mercredi 06 février 2019 aura du pain sur la planche et c’est peu dire. '
-image: "/uploads/blogtigo.jpg"
+image: "/uploads/img1.jpg"
 
 ---
 (CIO Mag) – Le nouveau directeur général de TIGO Sénégal dont la nomination a été officialisée mercredi 06 février 2019 aura du pain sur la planche et c’est peu dire. Et pour cause, le syndicat des travailleurs attend de Mamadou Mbengue qu’il « ait une gestion beaucoup plus autonome que celle que nous avons vécue l’année passée », plaide Alioune Badara Seck, le secrétaire général. » Nous n’avions pas manqué d’interpeler le directeur général démissionnaire sur la situation de l’entreprise par rapport à la complicité et aux limites objectives des directeurs qui sont à Tigo ».
