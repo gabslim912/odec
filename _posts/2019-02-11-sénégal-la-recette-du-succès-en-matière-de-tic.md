@@ -1,10 +1,10 @@
 ---
 title: 'Sénégal : la recette du succès en matière de TIC et des nouvelles technologies'
-date: 2019-02-11 00:00:00 +0000
+date: 2019-02-11T00:00:00.000+00:00
 auteur: La redaction
 mini_desc: Une interview du Dr Mor Seck, Directeur du Centre d'Enseignement à Distance
   du Sénégal
-image: "/uploads/blog3.jpg"
+image: "/uploads/img5.jpg"
 
 ---
 Le Sénégal est présenté aujourd'hui comme l'un des pays pionniers en matière de développement des technologies de l'information et de la communication (TIC). Pour la petite histoire, c'est son Président, Maître Abdoulaye Wade, qui a initié dès 2003 le Fonds mondial de solidarité numérique ([FSN](http://www.dsf-fsn.org/)) dont la mission est de « réduire la fracture numérique et de contribuer à l’édification d’une société de l’information solidaire et inclusive en mettant les technologies de l’information et de la communication au service du développement humain, en facilitant l’accès de tous à la société des connaissances, et en contribuant aux objectifs du Millénaire ». Le Sénégal préside aussi la Commission pour les TIC au sein du Nouveau Partenariat pour le Développement de l'Afrique (NEPAD).
