@@ -1,11 +1,11 @@
 ---
 title: 'Contrôle des flux téléphoniques en RD Congo : que reprochent les opérateurs
   à l’Etat ?'
-date: 2019-02-08 00:00:00 +0000
+date: 2019-02-08T00:00:00.000+00:00
 auteur: La rédaction
 mini_desc: Africell, Airtel, Orange et Vodacom, les opérateurs télécoms en République
   Démocratique du Congo, sont irrités par le mécanisme de contrôle des flux téléphoniques
-image: "/uploads/blog_congo.jpg"
+image: "/uploads/img6.jpg"
 
 ---
 Africell, Airtel, Orange et Vodacom, les opérateurs télécoms en République Démocratique du Congo, sont irrités par le mécanisme de contrôle des flux téléphoniques (appels, SMS et données) qui leur sera appliqué, et se sont fendu d’un communiqué pour le dénoncer.
