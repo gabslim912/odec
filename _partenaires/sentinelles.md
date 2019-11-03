@@ -1,5 +1,5 @@
 ---
 title: Sentinelles
-image: ''
+image: "/uploads/sentinelles.jpg"
 
 ---
