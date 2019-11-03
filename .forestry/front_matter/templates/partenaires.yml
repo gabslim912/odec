@@ -8,6 +8,3 @@ fields:
 - type: file
   name: image
   label: image
-pages:
-- _partenaires/oracle.md
-- _partenaires/sage.md
