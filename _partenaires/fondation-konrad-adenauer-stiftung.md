@@ -1,5 +1,5 @@
 ---
 title: Fondation Konrad Adenauer Stiftung
-image: "/uploads/logo-konrad-adenauer.svg"
+image: "/uploads/konrad-logo.png"
 
 ---
