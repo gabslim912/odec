@@ -9,4 +9,5 @@ fields:
   name: image
   label: image
 pages:
+- _partenaires/république-du-sénégal.md
 - _partenaires/sil-société-internationale-linguistique.md
