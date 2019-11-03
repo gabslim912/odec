@@ -30,6 +30,9 @@ collections:
   partenaires:
     title: partenaires
     output: true
+  evenements:
+    title: evenements
+    output: true
 adresse: Rue de Niombré, Thies Sénégal
 email: contact@odec-thies.com
 tel: 33 876 54 32
@@ -42,6 +45,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+parallax_banner: /uploads/img3.jpg
 
 # Build settings
 markdown: kramdown

@@ -7,6 +7,7 @@ mini_desc: 'Avec un chiffre d’affaires et un nombre de clients grandissants au
   et en Afrique (7500), Omar Cissé (photo) se dit très réjoui par la marche de l’agrégateur
   panafricain de paiements mobile et de services numériques. '
 image: "/uploads/img2.jpg"
+layout: post
 
 ---
 Avec un chiffre d’affaires et un nombre de clients grandissants au Sénégal et en Afrique (7500), Omar Cissé (photo) se dit très réjoui par la marche de l’agrégateur panafricain de paiements mobile et de services numériques. Lancé en 2014, mais ayant seulement démarré effectivement ses activités en nombre 2015, IN TOUCH a beaucoup évolué, pour ne pas dire brûlé les étapes avec des statistiques réjouissantes. Si le chiffre d’affaires était estimé entre 700 à 800 millions de francs CFA en 2016, en 2017, il a dépassé la barre du milliard pour atteindre les 3 milliards 500 millions l’année suivante, c’est-à-dire, en 2018.

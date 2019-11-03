@@ -1207,7 +1207,7 @@ button:focus {
     text-align: center;
 }
 .banner-bg-one {
-    background-image: url(../img/page-banner-bg1.jpg);
+    background-image: url(/uploads/img3.jpg);
 }
 .banner-bg-one:before {
     content: '';
