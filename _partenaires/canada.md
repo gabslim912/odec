@@ -1,5 +1,5 @@
 ---
 title: Canada
-image: "/uploads/logo_canada.png"
+image: "/uploads/canada.jpg"
 
 ---
