@@ -9,6 +9,7 @@ fields:
   name: image
   label: image
 pages:
+- _partenaires/canada.md
 - _partenaires/fondation-konrad-adenauer-stiftung.md
 - _partenaires/caritas.md
 - _partenaires/république-du-sénégal.md
