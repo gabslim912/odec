@@ -9,5 +9,6 @@ fields:
   name: image
   label: image
 pages:
+- _partenaires/caritas.md
 - _partenaires/république-du-sénégal.md
 - _partenaires/sil-société-internationale-linguistique.md
