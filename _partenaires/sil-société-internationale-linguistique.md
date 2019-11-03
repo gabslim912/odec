@@ -1,5 +1,5 @@
 ---
 title: SIL - Société Internationale Linguistique
-image: "/uploads/SIL_International_logo.svg"
+image: "/uploads/sil_logo.png"
 
 ---

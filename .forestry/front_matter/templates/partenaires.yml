@@ -9,9 +9,9 @@ fields:
   name: image
   label: image
 pages:
+- _partenaires/sil-société-internationale-linguistique.md
 - _partenaires/canada.md
 - _partenaires/sentinelles.md
 - _partenaires/fondation-konrad-adenauer-stiftung.md
 - _partenaires/caritas.md
 - _partenaires/république-du-sénégal.md
-- _partenaires/sil-société-internationale-linguistique.md
