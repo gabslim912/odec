@@ -7,7 +7,7 @@ plage_horaire: 14h à 18h
 email: forum@forum.com
 tel: "778765432"
 adresse: Bourguiba, Thies
-title: Forum pour l'orientation des jeunes
+title: Forum de la formation et de l'emploi
 layout: event
 
 ---
