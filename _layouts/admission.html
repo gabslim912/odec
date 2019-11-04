@@ -1,16 +1,73 @@
 ---
 layout: default
 ---
+<!-- Page Banner -->
+<div class="page-banner banner-bg-one">
+    <div class="container"> 
+        <div class="banner-text"> 
+            <h1>{{ page.title }}</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Page Banner -->
 
-<style type="text/css" media="screen">
-  
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-    text-align: center;
-</style>
-
-
-<h1>EN CONSTRUCTION ...</h1>
+<!-- Register -->
+<section class="register-section pt-100 pb-180">
+    <div class="container">
+        <div class="register-form box-content">
+            <h3 class="title">Inscrivez-vous dès maintenant!</h3>
+            <form>
+                <div class="row"> 
+                    <div class="col-lg-6"> 
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="id_firstname" placeholder="Prénom(s)">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6"> 
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="id_lastname" placeholder="Nom de famille">
+                        </div>
+                    </div>
+                </div>
+       			<div class="form-group">
+                    <input type="text" class="form-control" id="id_cycle" placeholder="Cycle pour lequel vous postulez">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="id_school" placeholder="Nom de l'établissement pour lequel vous postulez">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="id_phone_number" placeholder="Numéro de téléphone">
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" class="form-control" id="id_email" placeholder="Email">
+                </div>
+                
+                <div class="form-group">
+                    <select class="form-control">
+                    	<option value="Selectionnez" selected>Sélectionnez le programme pour lequel vous postulez</option>
+                        {% for programme in site.programmes %}
+                            <option value="{{ programme.title }}">{{ programme.title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group">
+                	<textarea  class="form-control" rows="6" >Lettre de motivation</textarea>
+                </div>
+          		
+                <div class="form-foot"> 
+                    <button type="submit" class="btn default-btn">S'inscrire maintenant</button>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- End Register -->

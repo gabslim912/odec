@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<!-- Page Banner -->
+<div class="page-banner banner-bg-one">
+    <div class="container"> 
+        <div class="banner-text"> 
+            <h1>{{ page.title }}</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Page Banner -->
+
+<!-- Events -->
+<section class="events-area pt-100 pb-180">
+    <div class="container">
+        <div class="row"> 
+        	{% for evenement in site.evenements %}
+            <div class="col-md-6 col-lg-6 col-xl-4">
+                <div class="single-event se-mb-30">
+                    <a href="{{ evenement.url }}">
+                        <img src="{{ evenement.seconde_image }}" alt="{{ evenement.title }}" style="width: auto; height: 245px;">
+                    </a>
+
+                    <div class="event-caption">
+                        <span class="date">
+                            <i class="icofont-calendar"></i> {{ evenement.date_de_debut | date: "%d-%m-%Y" }}
+                        </span>
+
+                        <h3><a href="{{ evenement.url }}">{{ evenement.title }}</a></h3>
+                        <p>Excepteur sint occaecat cupidatat sunt culpa qui officia deserunt mollit anim id.</p>
+                        <ul>
+                            <li><i class="icofont-clock-time"></i> {{ evenement.plage_horaire }}</li>
+                            <li><i class="icofont-location-pin"></i> {{ evenement.adresse }}</li>
+                        </ul>
+
+                        <div class="mt-20 text-center">
+                            <a href="{{ evenement.url }}" class="book-now-btn">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <!-- Pagination -->
+        <nav class="pagination-outer" aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a href="#" class="page-link" aria-label="Previous">
+                        <i class="icofont-swoosh-left"></i>
+                    </a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link" aria-label="Next">
+                        <i class="icofont-swoosh-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Pagination -->
+    </div>
+</section>
+<!-- End Events -->

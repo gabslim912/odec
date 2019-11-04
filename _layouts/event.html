@@ -1,0 +1,103 @@
+---
+layout: default
+---
+<!-- Page Banner -->
+<div class="page-banner banner-bg-one">
+    <div class="container"> 
+        <div class="banner-text"> 
+            <h1>{{ page.title }}</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Page Banner -->
+
+<!-- Single Events -->
+<section class="single-event-area ptb-100">
+    <div class="container">
+        <div class="single-event-header">
+            <h2>{{ page.title }}</h2>
+            <span class="date">
+                <i class="icofont-calendar"></i> {{ page.date_de_debut | date: "%d-%m-%Y" }}
+            </span>
+        </div>
+        
+        <div class="row"> 
+            <div class="col-lg-8">
+                <div class="single-preview-img">
+                    <img src="{{ page.seconde_image }}" alt="{{ page.title }}">
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="single-event-info">
+                    <h3 class="title">Informations</h3>
+                    <ul>
+                        <li>
+                            <i class="icofont-calendar"></i>
+                            <span class="label">Date de début</span>
+                            <span class="date">{{ page.date_de_debut | date: "%d-%m-%Y" }}</span>
+                        </li>
+                        <li>
+                            <i class="icofont-clock-time"></i>
+                            <span class="label">Plage horaire</span>
+                            <span class="date">{{ page.plage_horaire }}</span>
+                        </li>
+                        <li>
+                            <i class="icofont-calendar"></i>
+                            <span class="label">Date de fin</span>
+                            <span class="date">{{ page.date_de_fin | date: "%d-%m-%Y" }}</span>
+                        </li>
+                        <li>
+                            <i class="icofont-email"></i> 
+                            <span class="label">Email</span>
+                            <span class="date">{{ page.email }}</span>
+                        </li>
+                        <li>
+                            <i class="icofont-phone"></i>
+                            <span class="label">Tel</span>
+                            <span class="date">{{ page.tel }}</span>
+                        </li>
+                        <li>
+                            <i class="icofont-google-map"></i>
+                            <span class="label">Adresse</span>
+                            <span class="date">{{ page.adresse }}</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="se-info-foot">
+                        <a href="#" class="default-btn">Réservez Maintenant</a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+      
+        <div class="single-event-description">
+            <p>{{ page.content }}</p>
+        </div>
+        
+        <div class="row mb-30">
+            
+            
+            <div class="col-md-12 col-lg-12"> 
+                <ul class="single-event-share"> 
+                    <li>Partagez:</li>
+                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                    <li><a href="#"><i class="icofont-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="g-map pb-80">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004069.896900944!2d-104.65611544442766!3d37.27565371492453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sbd!4v1544435185812"></iframe>
+        </div>
+    </div>
+</section>
+<!-- End Single Events -->
