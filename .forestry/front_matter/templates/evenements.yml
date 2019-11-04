@@ -2,6 +2,11 @@
 label: evenements
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre
 - name: premiere_image
   type: file
   config:
@@ -52,5 +57,5 @@ fields:
   label: Adresse
 pages:
 - _evenements/file-1.md
-- _evenements/file.md
 - _evenements/forum de l'emploi.md
+- _evenements/file.md
