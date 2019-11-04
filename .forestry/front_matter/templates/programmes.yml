@@ -15,8 +15,8 @@ fields:
   name: image
   label: image
 pages:
+- _programmes/enseignement-moyen.md
 - _programmes/formation-technique-et-professionnelle.md
 - _programmes/eiseignement-elémentaire.md
-- _programmes/enseignement-moyen.md
 - _programmes/enseignement-préscolaire.md
 - _programmes/enseignement-moyen-et-secondaire.md
