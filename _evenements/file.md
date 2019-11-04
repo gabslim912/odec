@@ -1,13 +1,13 @@
 ---
 premiere_image: "/uploads/img3.jpg"
 seconde_image: "/uploads/img3.jpg"
-date_de_debut: 2019-11-13 00:00:00 +0000
-date_de_fin: 2019-11-14 00:00:00 +0000
+date_de_debut: 2019-11-13T00:00:00.000+00:00
+date_de_fin: 2019-11-14T00:00:00.000+00:00
 plage_horaire: 14h à 18h
 email: forum@forum.com
 tel: "778765432"
 adresse: Bourguiba, Thies
-title: ''
+title: Forum de l'éducation et de l'enseignement primaire
 layout: event
 
 ---
